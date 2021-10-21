@@ -1,0 +1,28 @@
+{
+  "objectName" : "pat_80poundsteelblock",
+  "description" : "perfect for taking up counter space",
+  "shortdescription" : "80 Pound Stainless Steel Block",
+	"tooltipFields" : {"subtitle" : "KitchenAid"},
+  "rarity" : "Essential",
+  "category" : "generic",
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "block.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaces" : [ [0, 0] ],
+			"collision" : "platform",
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "block.png",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaces" : [ [0, 0] ],
+			"collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
