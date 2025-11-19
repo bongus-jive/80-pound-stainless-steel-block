@@ -1,7 +1,7 @@
 {
-  "input" : [
-    { "item" : "durasteelbar", "count" : 6 }
+  "input": [
+    { "item": "durasteelbar", "count": 6 }
   ],
-  "output" : { "item" : "pat_80poundsteelblock", "count" : 1 },
-  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+  "output": { "item": "pat_80poundsteelblock", "count": 1 },
+  "groups": [ "craftingfurniture2", "decoration", "all" ]
 }
