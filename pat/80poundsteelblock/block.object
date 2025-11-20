@@ -6,23 +6,34 @@
   "rarity": "Essential",
   "category": "generic",
   "inventoryIcon": "icon.png",
+  "smashOnBreak": true,
+
+  "placementImage": "block.png:0",
+  "placementImagePosition": [ -4, 0 ],
   "orientations": [
     {
-      "image": "block.png",
-      "imagePosition": [ -8, 0 ],
-      "direction": "right",
+      "dualImage": "block.png:front",
+      "imagePosition": [ -4, 0 ],
       "spaces": [ [ 0, 0 ] ],
       "collision": "platform",
-      "anchors": [ "bottom" ]
+      "anchors": [ "bottom" ],
+      "renderLayer": "Object+2"
     },
     {
-      "image": "block.png",
-      "imagePosition": [ 0, 0 ],
-      "direction": "left",
-      "flipImages": true,
+      "dualImage": "block.png:front",
+      "imagePosition": [ -34, 0 ],
       "spaces": [ [ 0, 0 ] ],
-      "collision": "platform",
-      "anchors": [ "bottom" ]
+      "renderLayer": "Object+2",
+      "gravity": true
     }
-  ]
+  ],
+
+  "animation": "block.animation",
+  "animationScripts": [ "anim.lua" ],
+  "backImage": "/pat/80poundsteelblock/block.png:back",
+  "backLayer": "Object",
+
+  "scripts": [ "block.lua" ],
+  "projectileName": "pat_80poundsteelblock",
+  "thudPitchRange": [ 0.8, 1.1 ]
 }

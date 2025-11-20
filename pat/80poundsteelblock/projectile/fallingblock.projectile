@@ -1,0 +1,23 @@
+{
+  "projectileName": "pat_80poundsteelblock",
+  "image": "/pat/80poundsteelblock/block.png",
+  "renderLayer": "Object+1",
+  "orientationLocked": true,
+  "flippable": true,
+  "speed": 0,
+  "timeToLive": 60,
+  "damageTeam": { "type": "indiscriminate" },
+  "damageKind": "hammer",
+  "damageType": "IgnoresDef",
+  "damagePoly": [ [ -4, -4 ], [ 4, -4 ], [ 4, 4 ], [ -4, 4 ] ],
+  "piercing": true,
+  "movementSettings": {
+    "mass": 80,
+    "gravityMultiplier": 1.8,
+    "collisionPoly": [ [ -0.1, -0.5 ], [ 0.1, -0.5 ], [ 0.1, 0.5 ], [ -0.1, 0.5 ] ],
+    "ignorePlatformCollision": false
+  },
+
+  "scripts": [ "fallingblock.lua" ],
+  "objectName": "pat_80poundsteelblock"
+}
