@@ -1,6 +1,6 @@
 {
   "projectileName": "pat_80poundsteelblock",
-  "image": "/pat/80poundsteelblock/block.png",
+  "image": "/pat/80poundsteelblock/images/block.png",
   "renderLayer": "Object+1",
   "orientationLocked": true,
   "flippable": true,

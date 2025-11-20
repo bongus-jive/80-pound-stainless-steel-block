@@ -5,14 +5,14 @@
   "tooltipFields": { "subtitle": "KitchenAid" },
   "rarity": "Essential",
   "category": "generic",
-  "inventoryIcon": "icon.png",
+  "inventoryIcon": "images/icon.png",
   "smashOnBreak": true,
 
-  "placementImage": "block.png:0",
+  "placementImage": "images/block.png:0",
   "placementImagePosition": [ -4, 0 ],
   "orientations": [
     {
-      "dualImage": "block.png:front",
+      "dualImage": "images/block.png:front",
       "imagePosition": [ -4, 0 ],
       "spaces": [ [ 0, 0 ] ],
       "collision": "platform",
@@ -20,7 +20,7 @@
       "renderLayer": "Object+2"
     },
     {
-      "dualImage": "block.png:front",
+      "dualImage": "images/block.png:front",
       "imagePosition": [ -34, 0 ],
       "spaces": [ [ 0, 0 ] ],
       "renderLayer": "Object+2",
@@ -30,7 +30,7 @@
 
   "animation": "block.animation",
   "animationScripts": [ "anim.lua" ],
-  "backImage": "/pat/80poundsteelblock/block.png:back",
+  "backImage": "/pat/80poundsteelblock/images/block.png:back",
   "backLayer": "Object",
 
   "scripts": [ "block.lua" ],
