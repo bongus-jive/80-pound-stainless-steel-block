@@ -5,13 +5,9 @@ local function tilePos()
   return pos
 end
 
+local startPos
 function init()
   startPos = tilePos()
-end
-
-function update()
-  local power = math.abs(mcontroller.yVelocity())
-  projectile.setPower(power)
 end
 
 function destroy()

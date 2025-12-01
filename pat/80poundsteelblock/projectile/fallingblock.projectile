@@ -6,9 +6,10 @@
   "flippable": true,
   "speed": 0,
   "timeToLive": 60,
+  "knockback": 10,
   "damageTeam": { "type": "indiscriminate" },
   "damageKind": "hammer",
-  "damageType": "IgnoresDef",
+  "damageType": "Knockback",
   "damagePoly": [ [ -4, -4 ], [ 4, -4 ], [ 4, 4 ], [ -4, 4 ] ],
   "piercing": true,
   "movementSettings": {
@@ -19,6 +20,7 @@
   },
 
   "scripts": [ "fallingblock.lua" ],
+  "scriptDelta": 0,
   "objectName": "pat_80poundsteelblock",
   "objectParameters": { "thud": true }
 }
