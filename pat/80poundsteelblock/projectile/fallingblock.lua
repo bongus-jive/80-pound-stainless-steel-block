@@ -16,13 +16,16 @@ end
 
 function destroy()
   local obj = config.getParameter("objectName")
-
   local pos = tilePos()
-  if (pos[1] == startPos[1] and pos[2] == startPos[2]) or world.objectAt(pos) then
-    world.spawnItem(obj, pos)
-    return
-  end
 
-  local dir = mcontroller.rotation() == 0 and 1 or -1
-  world.placeObject(obj, pos, dir, { projectileVelocity = mcontroller.yVelocity() })
+  if (pos[1] ~= startPos[1] or pos[2] ~= startPos[2]) and not world.objectAt(pos) then
+    local dir = mcontroller.rotation() == 0 and 1 or -1
+    local params = config.getParameter("objectParameters")
+    
+    if world.placeObject(obj, pos, dir, params) then
+      return
+    end
+  end
+  
+  world.spawnItem(obj, pos)
 end

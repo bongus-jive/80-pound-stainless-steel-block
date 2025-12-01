@@ -7,9 +7,8 @@ end
 function update()
   script.setUpdateDelta(0)
 
-  local vel = config.getParameter("projectileVelocity")
-  if vel then
-    object.setConfigParameter("projectileVelocity", nil)
+  if config.getParameter("thud") then
+    object.setConfigParameter("thud", nil)
 
     local range = config.getParameter("thudPitchRange")
     if range then

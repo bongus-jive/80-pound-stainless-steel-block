@@ -19,5 +19,6 @@
   },
 
   "scripts": [ "fallingblock.lua" ],
-  "objectName": "pat_80poundsteelblock"
+  "objectName": "pat_80poundsteelblock",
+  "objectParameters": { "thud": true }
 }
