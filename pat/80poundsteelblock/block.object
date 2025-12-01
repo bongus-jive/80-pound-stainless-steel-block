@@ -31,7 +31,7 @@
   "animation": "block.animation",
   "animationScripts": [ "anim.lua" ],
   "backImage": "/pat/80poundsteelblock/images/block.png:back",
-  "backLayer": "Object",
+  "backLayer": "Object-2",
 
   "scripts": [ "block.lua" ],
   "projectileName": "pat_80poundsteelblock",
