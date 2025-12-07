@@ -6,6 +6,8 @@
   "rarity": "Essential",
   "category": "generic",
   "inventoryIcon": "images/icon.png",
+  "price": 800,
+  "printable": false,
   "smashOnBreak": true,
 
   "placementImage": "images/block.png:0",
